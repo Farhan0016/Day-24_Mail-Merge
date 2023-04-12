@@ -20,7 +20,3 @@ with open("./Input/Names/invited_names.txt") as invited_names:
             # replace the '[name]' with actual name of the person and then write
             new_letter = content.replace(PLACEHOLDER, stripped_name)
             invitation.write(new_letter)
-
-# Hint1: This method will help you: h ttps://www.w3schools.com/python/ref_file_readlines.asp
-# Hint2: This method will also help you: https://www.w3schools.com/python/ref_string_replace.asp
-# Hint3: THis method will help you: https://www.w3schools.com/python/ref_string_strip.asp
